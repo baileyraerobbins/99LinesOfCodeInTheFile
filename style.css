@@ -1,0 +1,25 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: teal;
+}
+
+.friend {
+background: #65c489;
+border: teal 4px solid;
+padding: 2%;
+}
+
+.friend h3 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+p {
+    color: white;
+    font-weight: lighter;
+}
