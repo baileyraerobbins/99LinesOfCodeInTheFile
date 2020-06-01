@@ -3,6 +3,7 @@ body {
 }
 
 .sing {
+<<<<<<< HEAD
     background-color: indigo;
     color: white;
     margin-bottom: 10px;
@@ -12,6 +13,12 @@ body {
 
 .sing:hover{
     background-color: tomato;
+=======
+    background-color: violet;
+    color: white;
+    margin-bottom: 10px;
+    padding: 1%;
+>>>>>>> c3a3f7c7fd119a5b9700cfbebd81e909fbcf2747
 }
 
 h1 {
@@ -33,6 +40,6 @@ margin-bottom: 10px;
 }
 
 p {
-    color: white;
+    color: black;
     font-weight: lighter;
 }

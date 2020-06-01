@@ -7,6 +7,13 @@ function singButton() {
 
     function buttonClick() {
 
+<<<<<<< HEAD
+=======
+        //Create div
+        let div = document.createElement("div");
+        div.className = "friend";
+
+>>>>>>> c3a3f7c7fd119a5b9700cfbebd81e909fbcf2747
         //Add array of friends
         let friends = [
             "Rachel",
@@ -16,6 +23,7 @@ function singButton() {
             "Carlin"
         ];
 
+<<<<<<< HEAD
         //Loop friend names
         for (let i = 0; i < friends.length; i++) {
             let friend = friends[i]
@@ -35,12 +43,21 @@ function singButton() {
             for (let n = 99; n >= 1; n--) {
 
                 //LAST SONG LYRIC: (Friend) drove over 1 pothole by dawn; she had nothing to lose; except for her shoes; but now (Friend) has no more cars on the lawn.
+=======
+        //Loop song lyrics for each friend
+        for (let i = 0; i < friends.length; i++) {
+            let friend = friends[i]
+            for (let n = 99; n >= 1; n--) {
+                
+                // Rachel drove over 1 pothole by dawn; she thought she had nothing to lose; except for her shoes; but now Rachel has no more cars on the lawn.
+>>>>>>> c3a3f7c7fd119a5b9700cfbebd81e909fbcf2747
                 if (n === 1) {
                     let p1 = document.createElement("p");
                     let verseOne = document.createTextNode(
                         friend + " drove over " + n + " pothole by dawn; she had nothing to lose; except for her shoes; now " +
                         friend + " has no more cars on the lawn."
                     );
+<<<<<<< HEAD
 
                     //Attach paragraph to body & paragraph to div
                     p1.appendChild(verseOne);
@@ -48,12 +65,21 @@ function singButton() {
                     div.appendChild(p1);
 
                 //SECOND TO LAST SONG LYRIC:(Friend) drove over 2 potholes by dawn; she had nothing to lose; except for her shoes; now (Friend) has 1 car on the lawn. 
+=======
+                    
+                    //Attach paragraph to body
+                    p1.appendChild(verseOne);
+                    document.body.appendChild(p1);
+                    
+                // Rachel drove over 2 potholes by dawn; she thought she had nothing to lose; except for her shoes; now Rachel has 1 car on the lawn. 
+>>>>>>> c3a3f7c7fd119a5b9700cfbebd81e909fbcf2747
                 } else if (n === 2) {
                     let p2 = document.createElement("p");
                     let verseTwo = document.createTextNode(
                         friend + " drove over " + n + " potholes by dawn; she had nothing to lose; except for her shoes; now " +
                         friend + " has " + (n - 1) + " car on the lawn."
                     );
+<<<<<<< HEAD
 
                     //Attach paragraph to body & paragraph to div
                     p2.appendChild(verseTwo);
@@ -62,6 +88,14 @@ function singButton() {
 
 
                 //FIRST SONG LYRICS TO FINAL: (Friend) drove over 99 potholes by dawn; she had nothing to lose; except for her shoes; now (Friend) has 98 cars on the lawn.
+=======
+                    
+                    //Attach paragraph to body
+                    p2.appendChild(verseTwo);
+                    document.body.appendChild(p2);
+
+                // Rachel drove over 100 potholes by dawn; she thought she had nothing to lose; except for her shoes; now Rachel has 99 cars on the lawn.
+>>>>>>> c3a3f7c7fd119a5b9700cfbebd81e909fbcf2747
                 } else {
                     let p3 = document.createElement("p");
                     let verseThree = document.createTextNode(
@@ -69,10 +103,17 @@ function singButton() {
                         friend + " has " + (n - 1) + " cars on the lawn."
                     );
 
+<<<<<<< HEAD
                     //Attach paragraph to body & paragraph to div
                     p3.appendChild(verseThree);
                     document.body.appendChild(p3);
                     div.appendChild(p3);
+=======
+                    //Attach paragraph to body
+                    p3.appendChild(verseThree);
+                    document.body.appendChild(p3);
+
+>>>>>>> c3a3f7c7fd119a5b9700cfbebd81e909fbcf2747
                 }
             }
         }
