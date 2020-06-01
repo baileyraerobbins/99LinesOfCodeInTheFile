@@ -3,20 +3,26 @@ body {
 }
 
 .sing {
-    background-color: violet;
+    background-color: indigo;
     color: white;
     margin-bottom: 10px;
     padding: 1%;
+    cursor: pointer;
+}
+
+.sing:hover{
+    background-color: tomato;
 }
 
 h1 {
-    color: teal;
+    color: tomato;
 }
 
 .friend {
-background: #65c489;
-border: teal 4px solid;
+background: indigo;
+border: tomato 4px solid;
 padding: 2%;
+margin-bottom: 10px;
 }
 
 .friend h3 {
@@ -27,6 +33,6 @@ padding: 2%;
 }
 
 p {
-    color: black;
+    color: white;
     font-weight: lighter;
 }
